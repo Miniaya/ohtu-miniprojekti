@@ -7,10 +7,8 @@ import dao.BookmarkDao;
 
 public class Book implements Bookmark {
 
-    private String title;
-    private String author;
-    private int pageCount;
-    private int currentPage;
+    private String title, author;
+    private int pageCount, currentPage;
     private ArrayList<String> tags = new ArrayList<>(); // TODO: hae tietokannasta
 
     private int id;

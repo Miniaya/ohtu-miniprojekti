@@ -5,8 +5,7 @@ import java.util.ArrayList;
 public class Article implements Bookmark {
 
     private int id;
-    private String title;
-    private String hyperlink;
+    private String title, hyperlink;
     private ArrayList<String> tags = new ArrayList<>(); // TODO: alusta tietokannasta
 
     public Article() {
